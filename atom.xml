@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://joke-csgo.github.io/</id>
     <title>Joke</title>
-    <updated>2020-03-07T08:41:59.083Z</updated>
+    <updated>2020-03-07T08:43:43.014Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://joke-csgo.github.io/"/>
     <link rel="self" href="https://joke-csgo.github.io/atom.xml"/>
@@ -18,7 +18,7 @@
         <updated>2020-03-07T04:12:18.000Z</updated>
         <content type="html"><![CDATA[<h1 id="前言">前言</h1>
 <h2 id="一-准备阶段">一、准备阶段</h2>
-<h3 id="1-可联网的电脑">1、可联网的电脑</h3>
+<h3 id="1-可联网的电脑并安装有gridea">1、可联网的电脑，并安装有Gridea。</h3>
 <h3 id="2-git-安装">2、Git 安装</h3>
 <h3 id="3-gridea与github的配置">3、Gridea与Github的配置</h3>
 <h3 id="4-使用gitalk为网站添加评论功能">4、使用Gitalk为网站添加评论功能</h3>
