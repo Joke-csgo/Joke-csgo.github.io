@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://joke-csgo.github.io/</id>
     <title>Joke</title>
-    <updated>2020-03-07T09:52:39.034Z</updated>
+    <updated>2020-03-07T10:08:58.832Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://joke-csgo.github.io/"/>
     <link rel="self" href="https://joke-csgo.github.io/atom.xml"/>
@@ -24,34 +24,53 @@
 <h3 id="4-使用gitalk为网站添加评论功能">4、使用Gitalk为网站添加评论功能</h3>
 <h3 id="5-gridea详细功能介绍">5、Gridea详细功能介绍</h3>
 <h2 id="二-git安装">二、Git安装</h2>
-<p>1、在[Git官网]首页，点击Download 2.25.1 for Windows下载Git安装包。（注：版本不同没有关系）<img src="https://joke-csgo.github.io//post-images/1583570327919.png" alt="" loading="lazy"></p>
+<p>1、在[Git官网]首页，点击Download 2.25.1 for Windows下载Git安装包。（注：版本不同没有关系）</p>
+<figure data-type="image" tabindex="1"><img src="https://joke-csgo.github.io//post-images/1583570327919.png" alt="" loading="lazy"></figure>
 <p>2、点开安装程序</p>
 <p>​	 1）选择安装路径，推荐选择不要带有中文或特殊符号的安装目录。</p>
-<p>​	 2）在Select Components界面中推荐勾选如下，然后点击Next&gt;。<img src="https://joke-csgo.github.io//post-images/1583568938753.PNG" alt="" loading="lazy"></p>
+<p>​	 2）在Select Components界面中推荐勾选如下，然后点击Next&gt;。</p>
+<figure data-type="image" tabindex="2"><img src="https://joke-csgo.github.io//post-images/1583568938753.PNG" alt="" loading="lazy"></figure>
 <p>​	 3）在Select Start Menu Folder界面，点击Next&gt;。</p>
 <p>​	 4）在Choosing the default editor used by Git 界面，点击Next&gt;。</p>
-<p>​	 5）在Adjusting your PATH environment界面，选择如图，点击Next&gt;。<img src="https://joke-csgo.github.io//post-images/1583568951629.png" alt="" loading="lazy"></p>
+<p>​	 5）在Adjusting your PATH environment界面，选择如图，点击Next&gt;。</p>
+<figure data-type="image" tabindex="3"><img src="https://joke-csgo.github.io//post-images/1583568951629.png" alt="" loading="lazy"></figure>
 <p>​	 6）在Choosing HTTPS transport backend界面，<u>一直点击Next&gt;</u>，直到完成安装。</p>
-<p>​	 7）使用快捷键windows+r，输入cmd回车，在弹出的窗口输入git --version，查看是否安装成功。<br>
-<img src="https://joke-csgo.github.io//post-images/1583568971721.png" alt="" loading="lazy"></p>
+<p>​	 7）使用快捷键windows+r，输入cmd回车，在弹出的窗口输入git --version，查看是否安装成功。</p>
+<figure data-type="image" tabindex="4"><img src="https://joke-csgo.github.io//post-images/1583568971721.png" alt="" loading="lazy"></figure>
 <h2 id="三-gridea与github的配置">三、Gridea与Github的配置</h2>
 <h4 id="1-github账号注册">1、Github账号注册</h4>
 <p>​	 1）打开<a href="https://github.com/">Github注册网站</a>，注册账号。</p>
-<figure data-type="image" tabindex="1"><img src="https://joke-csgo.github.io//post-images/1583568986689.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="5"><img src="https://joke-csgo.github.io//post-images/1583568986689.png" alt="" loading="lazy"></figure>
 <p>​	 2）注册完成，登录网页。在网页左侧找到Your most active repositories will appear here. <em><u>Create a repository</u></em> or <em><u>explore repositories</u></em>.点击<strong>蓝色字体</strong>Create a repository，进行创建仓库。</p>
-<p>​	 3)打开，在Repository name一栏填写如下格式xxxx.github.io，其他如图勾选，点击Create repository。<img src="https://joke-csgo.github.io//post-images/1583568997057.png" alt="" loading="lazy"></p>
+<p>​	 3)打开，在Repository name一栏填写如下格式xxxx.github.io，其他如图勾选，点击Create repository。</p>
+<figure data-type="image" tabindex="6"><img src="https://joke-csgo.github.io//post-images/1583568997057.png" alt="" loading="lazy"></figure>
 <p>​	 4）完成仓库创建。</p>
 <h4 id="2-设置github令牌">2、设置Github令牌</h4>
 <p>​	 1）点击右上角头像，点击Settings，左侧菜单中找到Developer settings，点击打开，在左侧菜单中打开Personal access tokens，点击右上角按钮Generate new token。</p>
-<figure data-type="image" tabindex="2"><img src="https://joke-csgo.github.io//post-images/1583569006164.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="7"><img src="https://joke-csgo.github.io//post-images/1583569006164.png" alt="" loading="lazy"></figure>
 <p>​	 2）Note栏可随意填写，可填写仓库名称，下面表单勾选repo或者全部勾选也行，点击按钮Generate token</p>
-<figure data-type="image" tabindex="3"><img src="https://joke-csgo.github.io//post-images/1583569017588.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="8"><img src="https://joke-csgo.github.io//post-images/1583569017588.png" alt="" loading="lazy"></figure>
 <p>​	 3）复制绿色框中代码至记事本留用，<strong><u>关闭此页面代码将无法显示</u></strong>。</p>
 <h4 id="3-配置gridea">3、配置Gridea</h4>
-<p>​	 1）如图配置，点击保存，点击检测远程连接。</p>
-<figure data-type="image" tabindex="4"><img src="https://joke-csgo.github.io//post-images/1583569041860.png" alt="" loading="lazy"></figure>
+<p>​	 1）如图配置，点击保存，点击检测远程连接。(图中仓库名称和仓库用户名区分大小写，建议复制Github账号注册步骤的第三步Repository name一栏填写的内容)</p>
+<figure data-type="image" tabindex="9"><img src="https://joke-csgo.github.io//post-images/1583569041860.png" alt="" loading="lazy"></figure>
 <p>​	 2）点击文章，勾选两个默认生成的文章“关于”和“Hello Gridea”，点击同步。</p>
 <p>​	 3）打开浏览器，输入配置的域名，如https://xxxx.github.io，即可查看配置的主页。</p>
+<h2 id="四-使用gitalk为网站添加评论功能">四、使用Gitalk为网站添加评论功能</h2>
+<p>1、创建Github Application，<a href="https://github.com/settings/applications/new">点击这里申请</a>。</p>
+<p>2、填写如图所示，点击Register application<br>
+<img src="https://joke-csgo.github.io//post-images/1583575664503.png" alt="" loading="lazy"></p>
+<p>3、复制Client ID和Client Secret至记事本留用。<br>
+<img src="https://joke-csgo.github.io//post-images/1583575672104.png" alt="" loading="lazy"></p>
+<p>4、如图进行评论配置，点击保存，点击同步，配置完成。<br>
+<img src="https://joke-csgo.github.io//post-images/1583575681342.png" alt="" loading="lazy"></p>
+<h2 id="五-gridea功能介绍">五、Gridea功能介绍</h2>
+<p>1、编辑文章</p>
+<p>点击“文章”，点击右上角“+”即可创建新文章。</p>
+<p>2、主题选择</p>
+<p>点击“主题”，在基础设置中可以进行选择主题，编辑网站名称，更改网页图标和个人头像等操作。</p>
+<p>3、标签归类</p>
+<p>在新文章编辑完成时，点击右侧齿轮图标进行设置，点击“标签栏”，进行添加标签归类。</p>
 ]]></content>
     </entry>
     <entry>
