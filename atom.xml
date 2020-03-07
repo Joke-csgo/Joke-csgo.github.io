@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://joke-csgo.github.io/</id>
     <title>Joke</title>
-    <updated>2020-03-07T08:28:51.718Z</updated>
+    <updated>2020-03-07T08:41:59.083Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://joke-csgo.github.io/"/>
     <link rel="self" href="https://joke-csgo.github.io/atom.xml"/>
@@ -24,7 +24,7 @@
 <h3 id="4-使用gitalk为网站添加评论功能">4、使用Gitalk为网站添加评论功能</h3>
 <h3 id="5-gridea详细功能介绍">5、Gridea详细功能介绍</h3>
 <h2 id="二-git安装">二、Git安装</h2>
-<p>1、在<a href="https://joke-csgo.github.io//post-images/1583568927627.png">Git官网</a></p>
+<p>1、在[Git官网]首页，点击Download 2.25.1 for Windows下载Git安装包。（注：版本不同没有关系）<img src="https://joke-csgo.github.io//post-images/1583570327919.png" alt="" loading="lazy"></p>
 <p>2、点开安装程序</p>
 <p>​	 1）选择安装路径，推荐选择不要带有中文或特殊符号的安装目录。</p>
 <p>​	 2）在Select Components界面中推荐勾选如下，然后点击Next&gt;。<img src="https://joke-csgo.github.io//post-images/1583568938753.PNG" alt="" loading="lazy"></p>
@@ -38,7 +38,7 @@
 <h4 id="1-github账号注册">1、Github账号注册</h4>
 <p>​	 1）打开<a href="https://github.com/">Github注册网站</a>，注册账号。</p>
 <figure data-type="image" tabindex="1"><img src="https://joke-csgo.github.io//post-images/1583568986689.png" alt="" loading="lazy"></figure>
-<p>​	 2）注册完成，登录网页。在网页左侧找到Your most active repositories will appear here. <em><u>Create a repository</u></em> or <em><u>explore repositories</u></em>.<strong>蓝色字体</strong>Create a repository，点击创建仓库。</p>
+<p>​	 2）注册完成，登录网页。在网页左侧找到Your most active repositories will appear here. <em><u>Create a repository</u></em> or <em><u>explore repositories</u></em>.点击<strong>蓝色字体</strong>Create a repository，进行创建仓库。</p>
 <p>​	 3)打开，在Repository name一栏填写如下格式xxxx.github.io，其他如图勾选，点击Create repository。<img src="https://joke-csgo.github.io//post-images/1583568997057.png" alt="" loading="lazy"></p>
 <p>​	 4）完成仓库创建。</p>
 <h4 id="2-设置github令牌">2、设置Github令牌</h4>
