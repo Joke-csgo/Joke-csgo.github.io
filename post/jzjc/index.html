@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>本站的搭建教程（持续更新ing） | Joke</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://joke-csgo.github.io//favicon.ico?v=1583571148495">
+<link rel="stylesheet" href="https://joke-csgo.github.io//styles/main.css">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="前言
+一、准备阶段
+1、可联网的电脑，并安装有Gridea。
+2、Git 安装
+3、Gridea与Github的配置
+4、使用Gitalk为网站添加评论功能
+5、Gridea详细功能介绍
+二、Git安装
+1、在[Git官网]首页，点击Dow..." />
+    <meta name="keywords" content="博客搭建" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://joke-csgo.github.io/">
+        <img src="https://joke-csgo.github.io//images/avatar.png?v=1583571148495" class="site-logo">
+        <h1 class="site-title">Joke</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      Joke-csgo's blog
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://joke-csgo.github.io//atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">本站的搭建教程（持续更新ing）</h2>
+            <div class="post-date">2020-03-07</div>
+            
+              <div class="feature-container" style="background-image: url('https://joke-csgo.github.io//post-images/jzjc.png')">
+              </div>
+            
+            <div class="post-content" v-pre>
+              <h1 id="前言">前言</h1>
+<h2 id="一-准备阶段">一、准备阶段</h2>
+<h3 id="1-可联网的电脑并安装有gridea">1、可联网的电脑，并安装有Gridea。</h3>
+<h3 id="2-git-安装">2、Git 安装</h3>
+<h3 id="3-gridea与github的配置">3、Gridea与Github的配置</h3>
+<h3 id="4-使用gitalk为网站添加评论功能">4、使用Gitalk为网站添加评论功能</h3>
+<h3 id="5-gridea详细功能介绍">5、Gridea详细功能介绍</h3>
+<h2 id="二-git安装">二、Git安装</h2>
+<p>1、在[Git官网]首页，点击Download 2.25.1 for Windows下载Git安装包。（注：版本不同没有关系）<img src="https://joke-csgo.github.io//post-images/1583570327919.png" alt="" loading="lazy"></p>
+<p>2、点开安装程序</p>
+<p>​	 1）选择安装路径，推荐选择不要带有中文或特殊符号的安装目录。</p>
+<p>​	 2）在Select Components界面中推荐勾选如下，然后点击Next&gt;。<img src="https://joke-csgo.github.io//post-images/1583568938753.PNG" alt="" loading="lazy"></p>
+<p>​	 3）在Select Start Menu Folder界面，点击Next&gt;。</p>
+<p>​	 4）在Choosing the default editor used by Git 界面，点击Next&gt;。</p>
+<p>​	 5）在Adjusting your PATH environment界面，选择如图，点击Next&gt;。<img src="https://joke-csgo.github.io//post-images/1583568951629.png" alt="" loading="lazy"></p>
+<p>​	 6）在Choosing HTTPS transport backend界面，<u>一直点击Next&gt;</u>，直到完成安装。</p>
+<p>​	 7）使用快捷键windows+r，输入cmd回车，在弹出的窗口输入git --version，查看是否安装成功。<br>
+<img src="https://joke-csgo.github.io//post-images/1583568971721.png" alt="" loading="lazy"></p>
+<h2 id="三-gridea与github的配置">三、Gridea与Github的配置</h2>
+<h4 id="1-github账号注册">1、Github账号注册</h4>
+<p>​	 1）打开<a href="https://github.com/">Github注册网站</a>，注册账号。</p>
+<figure data-type="image" tabindex="1"><img src="https://joke-csgo.github.io//post-images/1583568986689.png" alt="" loading="lazy"></figure>
+<p>​	 2）注册完成，登录网页。在网页左侧找到Your most active repositories will appear here. <em><u>Create a repository</u></em> or <em><u>explore repositories</u></em>.点击<strong>蓝色字体</strong>Create a repository，进行创建仓库。</p>
+<p>​	 3)打开，在Repository name一栏填写如下格式xxxx.github.io，其他如图勾选，点击Create repository。<img src="https://joke-csgo.github.io//post-images/1583568997057.png" alt="" loading="lazy"></p>
+<p>​	 4）完成仓库创建。</p>
+<h4 id="2-设置github令牌">2、设置Github令牌</h4>
+<p>​	 1）点击右上角头像，点击Settings，左侧菜单中找到Developer settings，点击打开，在左侧菜单中打开Personal access tokens，点击右上角按钮Generate new token。</p>
+<figure data-type="image" tabindex="2"><img src="https://joke-csgo.github.io//post-images/1583569006164.png" alt="" loading="lazy"></figure>
+<p>​	 2）Note栏可随意填写，可填写仓库名称，下面表单勾选repo或者全部勾选也行，点击按钮Generate token</p>
+<figure data-type="image" tabindex="3"><img src="https://joke-csgo.github.io//post-images/1583569017588.png" alt="" loading="lazy"></figure>
+<p>​	 3）复制绿色框中代码至记事本留用，<strong><u>关闭此页面代码将无法显示</u></strong>。</p>
+<h4 id="3-配置gridea">3、配置Gridea</h4>
+<p>​	 1）如图配置，点击保存，点击检测远程连接。</p>
+<figure data-type="image" tabindex="4"><img src="https://joke-csgo.github.io//post-images/1583569041860.png" alt="" loading="lazy"></figure>
+<p>​	 2）点击文章，勾选两个默认生成的文章“关于”和“Hello Gridea”，点击同步。</p>
+<p>​	 3）打开浏览器，输入配置的域名，如https://xxxx.github.io，即可查看配置的主页。</p>
+
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://joke-csgo.github.io/tag/uTCtAKzUJ/" class="tag">
+                    博客搭建
+                  </a>
+                
+              </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://joke-csgo.github.io/post/hello-gridea/">
+                  <h3 class="post-title">
+                    Hello Gridea
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+
+  </body>
+</html>
