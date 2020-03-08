@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>CSGO个人CFG预设 | Joke</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="https://joke-csgo.github.io//favicon.ico?v=1583662653224">
+<link rel="stylesheet" href="https://joke-csgo.github.io//styles/main.css">
+
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+
+
+    <meta name="description" content="准备阶段
+1、安装有CSGO的电脑
+2、下载CFG预设文件（点此下载）
+链接：https://pan.baidu.com/s/1PqQKrRVPkVYt92iyaSzMNg
+提取码：w36z
+（失效联系补链接，查看“关于”联系博主）
+配置阶..." />
+    <meta name="keywords" content="csgo" />
+  </head>
+  <body>
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="https://joke-csgo.github.io/">
+        <img src="https://joke-csgo.github.io//images/avatar.png?v=1583662653224" class="site-logo">
+        <h1 class="site-title">Joke</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
+      
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      Joke-csgo's blog
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://joke-csgo.github.io//atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
+
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">CSGO个人CFG预设</h2>
+            <div class="post-date">2020-03-08</div>
+            
+              <div class="feature-container" style="background-image: url('https://joke-csgo.github.io//post-images/cfg.jpg')">
+              </div>
+            
+            <div class="post-content" v-pre>
+              <h2 id="准备阶段">准备阶段</h2>
+<p>1、安装有CSGO的电脑</p>
+<p>2、下载CFG预设文件（<a href="https://pan.baidu.com/s/1PqQKrRVPkVYt92iyaSzMNg">点此下载</a>）</p>
+<p>链接：https://pan.baidu.com/s/1PqQKrRVPkVYt92iyaSzMNg<br>
+提取码：w36z<br>
+（失效联系补链接，查看“关于”联系博主）</p>
+<h2 id="配置阶段">配置阶段</h2>
+<p>1、打开以下文件夹进行备份</p>
+<pre><code>  个人设置文件夹`...\Steam\userdata\(9位ID)\730\local\cfg\`   	
+
+  游戏设置文件夹`...\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\cfg\ `
+</code></pre>
+<p>2、9位ID可以通过打开加速器，在添加好友中，复制好友代码即为个人9位ID</p>
+<p>3、复制文件夹中的export.cfg文件，粘贴至游戏设置文件夹。</p>
+<p>4、打开游戏客户端切换至窗口化。</p>
+<p>5、打开设置，启用开发者控制台（~）。</p>
+<p>6、打开开发者控制台，输入 exec export，复制得到的所有代码，粘贴至记事本备用。<br>
+<img src="https://joke-csgo.github.io//post-images/1583661886675.jpg" alt="" loading="lazy"></p>
+<h2 id="调整阶段">调整阶段</h2>
+<p>一、auto.cfg文件的调整</p>
+<p>0.启动项</p>
+<p>建议使用推荐启动项，复制启动项，在steam库中右击csgo，打开属性，设置启动选项，粘贴即可。</p>
+<p>1.鼠标设置</p>
+<p>打开游戏设置，键盘/鼠标控制，对应游戏设置数值，更改预设文件数值。<br>
+<img src="https://joke-csgo.github.io//post-images/1583662109042.jpg" alt="" loading="lazy"></p>
+<p>2.准星&amp;持枪设置</p>
+<p>打开crosshair.cfg，将配置阶段第6步获得的代码中，所有***cl_***开头的代码复制粘贴，保存即可。</p>
+<p>对比配置阶段第6步获得的代码：viewmodel_recoil 0和viewmodel_presetpos 1修改持枪参数。</p>
+<p>3.自定义持枪视角参数自定义持枪视角参数</p>
+<p>将配置阶段第6步获得的代码所有***viewmodel_***开头的代码除viewmodel_recoil 0和viewmodel_presetpos 1外粘贴至相应位置。</p>
+<p>4.基础设置</p>
+<p>对应中文提示以及个人习惯，所有参数“0”为关闭，“1”为打开。</p>
+<p>5.视频设置</p>
+<p>不建议更改，预设代码已经能够很好的看清暗处以及减轻燃烧弹黑烟。</p>
+<p>6.声音设置</p>
+<p>对比自己游戏设置，更改数值。</p>
+<p>7.HUD设置</p>
+<p>对比自己进行设置，雷达缩放以及雷达以玩家为中心的预设，已经足够看清地图中所有队友的位置。</p>
+<p>8.按键绑定</p>
+<p>自行修改</p>
+<p>其中投掷物准心即在投扔道具时使用的准心，可在创意工坊等获得，通过控制台exec export获得参数，</p>
+<p>参考crosshair.cfg的配置方法，配置crosshair_throw.cfg文件</p>
+<p>注：//是&quot;注释&quot; 在它出现的那一行，之后的内容都不会被读取</p>
+<pre><code>这是指令;   //这是注释
+</code></pre>
+<p>如果不想用某条指令，就在指令前加上注释，或者直接删除:</p>
+<pre><code>//这是指令; //这是注释
+</code></pre>
+<p>二、其余CFG文件</p>
+<p>基本无需更改，如有改动可参考auto.cfg文件修改方法。</p>
+<p>注：喜欢玩连跳的，practive.cfg文件中已经预设bhop开关。</p>
+<h2 id="如何使用预设cfg">如何使用预设CFG</h2>
+<p>1.将修改好的所有cfg文件，复制粘贴至<strong>个人设置</strong>或<strong>游戏设置</strong>文件夹中。如果是个人电脑，推荐粘贴至游戏设置文件夹。</p>
+<p>2.重新进入游戏，打开控制台查看。<br>
+<img src="https://joke-csgo.github.io//post-images/1583661980627.jpg" alt="" loading="lazy"></p>
+<p>3.在跑图或solo中，调用practive.cfg或solo.cfg，对于常见的代码在控制台中均可获得中文提示。<br>
+<img src="https://joke-csgo.github.io//post-images/1583662413952.jpg" alt="" loading="lazy"></p>
+<h2 id="后记">后记</h2>
+<p>1.资料来源参考B站UP主<a href="https://space.bilibili.com/73115492">Purp1e-csgo</a><br>
+（没事去给个三连吧。）<br>
+2.预设CFG的优缺点</p>
+<p>优点：所有设置清晰明了，个性化程度极高。同时省去更换电脑时调整各项设置的麻烦。</p>
+<p>缺点：所有设置的调整均需通过调整cfg文件参数来保留更改。</p>
+<h2 id="预设各文件作用简述">预设各文件作用简述：</h2>
+<p>通常游戏时使用</p>
+<ul>
+<li>
+<p><strong>auto.cfg</strong> 核心cfg 包含若干常用设置指令并加以详尽注释 另有各种特殊功能的指令如跳投、投掷物准星</p>
+</li>
+<li>
+<p><strong>bind_default.cfg</strong> 还原初始键位的config 在auto demo hlae等cfg靠前位置调用此cfg 确保每次启动游戏键位一致</p>
+</li>
+<li>
+<p><strong>crosshair.cfg</strong> 存放<strong>准星参数</strong>的config 为了实现投掷物准星 单独成一个cfg可极大的保证投掷准星代码的可重用性</p>
+</li>
+<li>
+<p><strong>crosshair_throw.cfg</strong> 存放投掷物准星（超长十字准星）参数 配合投掷物准星功能</p>
+</li>
+<li>
+<p><strong>practice.cfg</strong> <strong>跑图</strong>用cfg 方便跑图设置各种参数和键位绑定 控制台有中文提示</p>
+</li>
+<li>
+<p><strong>knife.cfg</strong></p>
+<p>搭配跑图<code>practic.cfg</code>使用 实现分批次生成原版刀</p>
+</li>
+<li>
+<p><strong>solo.cfg</strong> 进行solo 2v2 3v3等场景时使用的config 一次设置各种参数 另有设置solo模式的快捷键</p>
+</li>
+<li>
+<p><strong>export.cfg</strong> <strong>导出准星和持枪参数</strong> 建议在调试预设时先使用该cfg导出参数置于auto.cfg crosshair.cfg对应位置</p>
+</li>
+<li>
+<p><strong>demo.cfg</strong> 观看DEMO时使用的config 设置一些参数 绑定快捷按键</p>
+</li>
+</ul>
+<p>其他</p>
+<ul>
+<li>网吧修复VAC屏蔽.bat</li>
+</ul>
+<p><code>狙击手Ricky</code> 所做的批处理脚本 用来处理VAC验证错误</p>
+<h2 id="常见问题">常见问题:</h2>
+<h4 id="1-为什么我自己的cfg无法自动加载">1. 为什么我自己的cfg无法自动加载？</h4>
+<p>－　需要在这个cfg的结尾加上host_writeconfig －　启动项 +exec xxx.cfg	是不是忘了+ 或者忘了用空格隔开？</p>
+<p>(xxx是自动加载cfg的名字)</p>
+<h4 id="2-为什么控制台经常弹出unknown-command">2. 为什么控制台经常弹出unknown command？</h4>
+<p>－记事本编辑文件后编码格式会变为UTF8 Bom csgo无法识别bom</p>
+<p>－<strong>对功能没影响</strong> 可以用editplus 或notepad++改变编码为UTF8</p>
+
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="https://joke-csgo.github.io/tag/1vPhUc8xW/" class="tag">
+                    csgo
+                  </a>
+                
+              </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://joke-csgo.github.io/post/jzjc/">
+                  <h3 class="post-title">
+                    本站的搭建教程
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '174392f96d091e46911a',
+        clientSecret: 'f599dcb7dd403ff1fb788f73cf117d5c564e0860',
+        repo: 'Joke-csgo.github.io',
+        owner: 'Joke-csgo',
+        admin: ['Joke-csgo'],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
+
+
+
+
+  </body>
+</html>
