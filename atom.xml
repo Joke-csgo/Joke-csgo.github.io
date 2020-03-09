@@ -1,49 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://jfxrd9.coding-pages.com</id>
+    <id>http://jfxrd9.coding-pages.com</id>
     <title>Joke</title>
-    <updated>2020-03-09T09:04:04.035Z</updated>
+    <updated>2020-03-09T09:05:12.989Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://jfxrd9.coding-pages.com"/>
-    <link rel="self" href="https://jfxrd9.coding-pages.com/atom.xml"/>
+    <link rel="alternate" href="http://jfxrd9.coding-pages.com"/>
+    <link rel="self" href="http://jfxrd9.coding-pages.com/atom.xml"/>
     <subtitle>Joke-csgo&apos;s blog</subtitle>
-    <logo>https://jfxrd9.coding-pages.com/images/avatar.png</logo>
-    <icon>https://jfxrd9.coding-pages.com/favicon.ico</icon>
+    <logo>http://jfxrd9.coding-pages.com/images/avatar.png</logo>
+    <icon>http://jfxrd9.coding-pages.com/favicon.ico</icon>
     <rights>All rights reserved 2020, Joke</rights>
     <entry>
         <title type="html"><![CDATA[电脑游戏性能优化杂项]]></title>
-        <id>https://jfxrd9.coding-pages.com/post/dnsz/</id>
-        <link href="https://jfxrd9.coding-pages.com/post/dnsz/">
+        <id>http://jfxrd9.coding-pages.com/post/dnsz/</id>
+        <link href="http://jfxrd9.coding-pages.com/post/dnsz/">
         </link>
         <updated>2020-03-09T07:03:16.000Z</updated>
         <content type="html"><![CDATA[<h2 id="一-电源计划">一、电源计划</h2>
-<p>首先win10系统版本需要1803以上，打开右击任务栏点击设置--&gt;系统--&gt;关于--&gt;Windows 规格，就可以看到版本号了。<img src="https://jfxrd9.coding-pages.com/post-images/1583737516274.png" alt="" loading="lazy"></p>
+<p>首先win10系统版本需要1803以上，打开右击任务栏点击设置--&gt;系统--&gt;关于--&gt;Windows 规格，就可以看到版本号了。<img src="http://jfxrd9.coding-pages.com/post-images/1583737516274.png" alt="" loading="lazy"></p>
 <p>开启步骤如下：</p>
 <p>1、使用快捷键Windows+R打开运行界面，输入“powershell“，回车打开。</p>
-<p>2、然后输入命令powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61 按回车确定，一会就发现开启了卓越性能。<img src="https://jfxrd9.coding-pages.com/post-images/1583737529178.png" alt="" loading="lazy"></p>
-<p>3、接着依次控制面板--&gt;硬件和声音--&gt;电源选项，可以在隐藏附加计划下面勾选“卓越性能”，关闭设置。<img src="https://jfxrd9.coding-pages.com/post-images/1583737544496.png" alt="" loading="lazy"></p>
+<p>2、然后输入命令powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61 按回车确定，一会就发现开启了卓越性能。<img src="http://jfxrd9.coding-pages.com/post-images/1583737529178.png" alt="" loading="lazy"></p>
+<p>3、接着依次控制面板--&gt;硬件和声音--&gt;电源选项，可以在隐藏附加计划下面勾选“卓越性能”，关闭设置。<img src="http://jfxrd9.coding-pages.com/post-images/1583737544496.png" alt="" loading="lazy"></p>
 <h2 id="二-鼠标设置">二、鼠标设置</h2>
-<p>1、打开控制面板，将查看方式改为大图标，找到鼠标。<img src="https://jfxrd9.coding-pages.com/post-images/1583737552740.png" alt="" loading="lazy"></p>
-<p>2、在鼠标属性，指针选项一栏中，将指针移动速度设定在6格，取消提高指针精确度。<img src="https://jfxrd9.coding-pages.com/post-images/1583737560720.png" alt="" loading="lazy"></p>
+<p>1、打开控制面板，将查看方式改为大图标，找到鼠标。<img src="http://jfxrd9.coding-pages.com/post-images/1583737552740.png" alt="" loading="lazy"></p>
+<p>2、在鼠标属性，指针选项一栏中，将指针移动速度设定在6格，取消提高指针精确度。<img src="http://jfxrd9.coding-pages.com/post-images/1583737560720.png" alt="" loading="lazy"></p>
 <p>3、点击确定完成设置。</p>
 <h2 id="三-显卡设置">三、显卡设置</h2>
 <p>显卡设置需要下载相应显卡驱动。以N卡为例，A卡对比设置即可。</p>
 <p>1、桌面右击，选择NVIDIA 控制面板。</p>
-<p>2、在3D设置--通过预览调整图像设置，勾选“使用我的优先选择，侧重于：”，将滑块调至”性能“，点击”应用“保存。<img src="https://jfxrd9.coding-pages.com/post-images/1583737572076.png" alt="" loading="lazy"></p>
-<p>3、在管理3D设置中，可在全局设置中如图调试。也可通过程序设置，选择需要调试的游戏程序，这样仅对游戏调整，点击”应用“保存。<img src="https://jfxrd9.coding-pages.com/post-images/1583737578587.png" alt="" loading="lazy"></p>
-<p>4、在配置 Surround、PhysX中，在PhysX设置--处理器下拉菜单中选择自己的显卡，点击”应用“保存。<img src="https://jfxrd9.coding-pages.com/post-images/1583737587120.png" alt="" loading="lazy"></p>
+<p>2、在3D设置--通过预览调整图像设置，勾选“使用我的优先选择，侧重于：”，将滑块调至”性能“，点击”应用“保存。<img src="http://jfxrd9.coding-pages.com/post-images/1583737572076.png" alt="" loading="lazy"></p>
+<p>3、在管理3D设置中，可在全局设置中如图调试。也可通过程序设置，选择需要调试的游戏程序，这样仅对游戏调整，点击”应用“保存。<img src="http://jfxrd9.coding-pages.com/post-images/1583737578587.png" alt="" loading="lazy"></p>
+<p>4、在配置 Surround、PhysX中，在PhysX设置--处理器下拉菜单中选择自己的显卡，点击”应用“保存。<img src="http://jfxrd9.coding-pages.com/post-images/1583737587120.png" alt="" loading="lazy"></p>
 <h2 id="四-调整进程优先级">四、调整进程优先级</h2>
 <p>以CSGO为例</p>
 <p>1、打开CSGO，使用快捷键Ctrl+Alt+Delete，打开任务管理器。<br>
-<img src="https://jfxrd9.coding-pages.com/post-images/1583737782337.png" alt="" loading="lazy"><br>
+<img src="http://jfxrd9.coding-pages.com/post-images/1583737782337.png" alt="" loading="lazy"><br>
 2、右击csgo.exe，选择转到详细信息，右击csgo.exe，设置优先级，选择“高”。<br>
-<img src="https://jfxrd9.coding-pages.com/post-images/1583737790085.png" alt="" loading="lazy"><br>
+<img src="http://jfxrd9.coding-pages.com/post-images/1583737790085.png" alt="" loading="lazy"><br>
 3、完成设置。</p>
 <h2 id="以下是针对csgo的启动项设置">以下是针对CSGO的启动项设置</h2>
 <h4 id="steam设置启动项方法">Steam设置启动项方法：</h4>
 <p>1.打开steam并点击‘库’</p>
-<p>2.右键csgo选择属性<img src="https://jfxrd9.coding-pages.com/post-images/1583737724308.png" alt="" loading="lazy"></p>
-<p>3.常规---设置启动选项<img src="https://jfxrd9.coding-pages.com/post-images/1583737729508.jpg" alt="" loading="lazy"></p>
+<p>2.右键csgo选择属性<img src="http://jfxrd9.coding-pages.com/post-images/1583737724308.png" alt="" loading="lazy"></p>
+<p>3.常规---设置启动选项<img src="http://jfxrd9.coding-pages.com/post-images/1583737729508.jpg" alt="" loading="lazy"></p>
 <h4 id="常用启动项说明">常用启动项说明</h4>
 <table>
 <thead>
@@ -79,8 +79,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[CSGO个人CFG预设]]></title>
-        <id>https://jfxrd9.coding-pages.com/post/cfg/</id>
-        <link href="https://jfxrd9.coding-pages.com/post/cfg/">
+        <id>http://jfxrd9.coding-pages.com/post/cfg/</id>
+        <link href="http://jfxrd9.coding-pages.com/post/cfg/">
         </link>
         <updated>2020-03-08T09:41:53.000Z</updated>
         <content type="html"><![CDATA[<h2 id="准备阶段">准备阶段</h2>
@@ -98,14 +98,14 @@
 <p>4、打开游戏客户端切换至窗口化。</p>
 <p>5、打开设置，启用开发者控制台（~）。</p>
 <p>6、打开开发者控制台，输入 exec export，复制得到的所有代码，粘贴至记事本备用。<br>
-<img src="https://jfxrd9.coding-pages.com/post-images/1583661886675.jpg" alt="" loading="lazy"></p>
+<img src="http://jfxrd9.coding-pages.com/post-images/1583661886675.jpg" alt="" loading="lazy"></p>
 <h2 id="调整阶段">调整阶段</h2>
 <p>一、auto.cfg文件的调整</p>
 <p>0.启动项</p>
 <p>建议使用推荐启动项，复制启动项，在steam库中右击csgo，打开属性，设置启动选项，粘贴即可。</p>
 <p>1.鼠标设置</p>
 <p>打开游戏设置，键盘/鼠标控制，对应游戏设置数值，更改预设文件数值。<br>
-<img src="https://jfxrd9.coding-pages.com/post-images/1583662109042.jpg" alt="" loading="lazy"></p>
+<img src="http://jfxrd9.coding-pages.com/post-images/1583662109042.jpg" alt="" loading="lazy"></p>
 <p>2.准星&amp;持枪设置</p>
 <p>打开crosshair.cfg，将配置阶段第6步获得的代码中，所有“cl_”开头的代码复制粘贴，保存即可。</p>
 <p>对比配置阶段第6步获得的代码：viewmodel_recoil 0和viewmodel_presetpos 1修改持枪参数。</p>
@@ -135,9 +135,9 @@
 <h2 id="如何使用预设cfg">如何使用预设CFG</h2>
 <p>1.将修改好的所有cfg文件，复制粘贴至<strong>个人设置</strong>或<strong>游戏设置</strong>文件夹中。如果是个人电脑，推荐粘贴至游戏设置文件夹。</p>
 <p>2.重新进入游戏，打开控制台查看。<br>
-<img src="https://jfxrd9.coding-pages.com/post-images/1583661980627.jpg" alt="" loading="lazy"></p>
+<img src="http://jfxrd9.coding-pages.com/post-images/1583661980627.jpg" alt="" loading="lazy"></p>
 <p>3.在跑图或solo中，调用practive.cfg或solo.cfg，对于常见的代码在控制台中均可获得中文提示。<br>
-<img src="https://jfxrd9.coding-pages.com/post-images/1583662413952.jpg" alt="" loading="lazy"></p>
+<img src="http://jfxrd9.coding-pages.com/post-images/1583662413952.jpg" alt="" loading="lazy"></p>
 <h2 id="后记">后记</h2>
 <p>1.资料来源参考B站UP主<a href="https://space.bilibili.com/73115492">Purp1e-csgo</a><br>
 （没事去给个三连吧。）<br>
@@ -193,8 +193,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[本站的搭建教程]]></title>
-        <id>https://jfxrd9.coding-pages.com/post/jzjc/</id>
-        <link href="https://jfxrd9.coding-pages.com/post/jzjc/">
+        <id>http://jfxrd9.coding-pages.com/post/jzjc/</id>
+        <link href="http://jfxrd9.coding-pages.com/post/jzjc/">
         </link>
         <updated>2020-03-07T04:12:18.000Z</updated>
         <content type="html"><![CDATA[<h1 id="前言">前言</h1>
@@ -206,45 +206,45 @@
 <h3 id="5-gridea详细功能介绍">5、Gridea详细功能介绍</h3>
 <h2 id="二-git安装">二、Git安装</h2>
 <p>1、在[Git官网]首页，点击Download 2.25.1 for Windows下载Git安装包。（注：版本不同没有关系）</p>
-<figure data-type="image" tabindex="1"><img src="https://jfxrd9.coding-pages.com/post-images/1583570327919.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="1"><img src="http://jfxrd9.coding-pages.com/post-images/1583570327919.png" alt="" loading="lazy"></figure>
 <p>2、点开安装程序</p>
 <p>​	 1）选择安装路径，推荐选择不要带有中文或特殊符号的安装目录。</p>
 <p>​	 2）在Select Components界面中推荐勾选如下，然后点击Next&gt;。</p>
-<figure data-type="image" tabindex="2"><img src="https://jfxrd9.coding-pages.com/post-images/1583568938753.PNG" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="2"><img src="http://jfxrd9.coding-pages.com/post-images/1583568938753.PNG" alt="" loading="lazy"></figure>
 <p>​	 3）在Select Start Menu Folder界面，点击Next&gt;。</p>
 <p>​	 4）在Choosing the default editor used by Git 界面，点击Next&gt;。</p>
 <p>​	 5）在Adjusting your PATH environment界面，选择如图，点击Next&gt;。</p>
-<figure data-type="image" tabindex="3"><img src="https://jfxrd9.coding-pages.com/post-images/1583568951629.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="3"><img src="http://jfxrd9.coding-pages.com/post-images/1583568951629.png" alt="" loading="lazy"></figure>
 <p>​	 6）在Choosing HTTPS transport backend界面，<u>一直点击Next&gt;</u>，直到完成安装。</p>
 <p>​	 7）使用快捷键windows+r，输入cmd回车，在弹出的窗口输入git --version，查看是否安装成功。</p>
-<figure data-type="image" tabindex="4"><img src="https://jfxrd9.coding-pages.com/post-images/1583568971721.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="4"><img src="http://jfxrd9.coding-pages.com/post-images/1583568971721.png" alt="" loading="lazy"></figure>
 <h2 id="三-gridea与github的配置">三、Gridea与Github的配置</h2>
 <h4 id="1-github账号注册">1、Github账号注册</h4>
 <p>​	 1）打开<a href="https://github.com/">Github注册网站</a>，注册账号。</p>
-<figure data-type="image" tabindex="5"><img src="https://jfxrd9.coding-pages.com/post-images/1583568986689.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="5"><img src="http://jfxrd9.coding-pages.com/post-images/1583568986689.png" alt="" loading="lazy"></figure>
 <p>​	 2）注册完成，登录网页。在网页左侧找到Your most active repositories will appear here. <em><u>Create a repository</u></em> or <em><u>explore repositories</u></em>.点击<strong>蓝色字体</strong>Create a repository，进行创建仓库。</p>
 <p>​	 3)打开，在Repository name一栏填写如下格式xxxx.github.io，其他如图勾选，点击Create repository。</p>
-<figure data-type="image" tabindex="6"><img src="https://jfxrd9.coding-pages.com/post-images/1583568997057.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="6"><img src="http://jfxrd9.coding-pages.com/post-images/1583568997057.png" alt="" loading="lazy"></figure>
 <p>​	 4）完成仓库创建。</p>
 <h4 id="2-设置github令牌">2、设置Github令牌</h4>
 <p>​	 1）点击右上角头像，点击Settings，左侧菜单中找到Developer settings，点击打开，在左侧菜单中打开Personal access tokens，点击右上角按钮Generate new token。</p>
-<figure data-type="image" tabindex="7"><img src="https://jfxrd9.coding-pages.com/post-images/1583569006164.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="7"><img src="http://jfxrd9.coding-pages.com/post-images/1583569006164.png" alt="" loading="lazy"></figure>
 <p>​	 2）Note栏可随意填写，可填写仓库名称，下面表单勾选repo或者全部勾选也行，点击按钮Generate token</p>
-<figure data-type="image" tabindex="8"><img src="https://jfxrd9.coding-pages.com/post-images/1583569017588.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="8"><img src="http://jfxrd9.coding-pages.com/post-images/1583569017588.png" alt="" loading="lazy"></figure>
 <p>​	 3）复制绿色框中代码至记事本留用，<strong><u>关闭此页面代码将无法显示</u></strong>。</p>
 <h4 id="3-配置gridea">3、配置Gridea</h4>
 <p>​	 1）如图配置，点击保存，点击检测远程连接。(图中仓库名称和仓库用户名区分大小写，建议复制Github账号注册步骤的第三步Repository name一栏填写的内容)</p>
-<figure data-type="image" tabindex="9"><img src="https://jfxrd9.coding-pages.com/post-images/1583569041860.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="9"><img src="http://jfxrd9.coding-pages.com/post-images/1583569041860.png" alt="" loading="lazy"></figure>
 <p>​	 2）点击文章，勾选两个默认生成的文章“关于”和“Hello Gridea”，点击同步。</p>
 <p>​	 3）打开浏览器，输入配置的域名，如https://xxxx.github.io，即可查看配置的主页。</p>
 <h2 id="四-使用gitalk为网站添加评论功能">四、使用Gitalk为网站添加评论功能</h2>
 <p>1、创建Github Application，<a href="https://github.com/settings/applications/new">点击这里申请</a>。</p>
 <p>2、填写如图所示，点击Register application<br>
-<img src="https://jfxrd9.coding-pages.com/post-images/1583575664503.png" alt="" loading="lazy"></p>
+<img src="http://jfxrd9.coding-pages.com/post-images/1583575664503.png" alt="" loading="lazy"></p>
 <p>3、复制Client ID和Client Secret至记事本留用。<br>
-<img src="https://jfxrd9.coding-pages.com/post-images/1583575672104.png" alt="" loading="lazy"></p>
+<img src="http://jfxrd9.coding-pages.com/post-images/1583575672104.png" alt="" loading="lazy"></p>
 <p>4、如图进行评论配置，点击保存，点击同步，配置完成。<br>
-<img src="https://jfxrd9.coding-pages.com/post-images/1583575681342.png" alt="" loading="lazy"></p>
+<img src="http://jfxrd9.coding-pages.com/post-images/1583575681342.png" alt="" loading="lazy"></p>
 <h2 id="五-gridea功能介绍">五、Gridea功能介绍</h2>
 <p>1、编辑文章</p>
 <p>点击“文章”，点击右上角“+”即可创建新文章。</p>
