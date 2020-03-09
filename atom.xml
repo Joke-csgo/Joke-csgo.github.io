@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://joke-csgo.github.io/</id>
     <title>Joke</title>
-    <updated>2020-03-08T10:17:39.680Z</updated>
+    <updated>2020-03-09T07:38:37.597Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://joke-csgo.github.io/"/>
     <link rel="self" href="https://joke-csgo.github.io/atom.xml"/>
@@ -10,6 +10,73 @@
     <logo>https://joke-csgo.github.io/images/avatar.png</logo>
     <icon>https://joke-csgo.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Joke</rights>
+    <entry>
+        <title type="html"><![CDATA[电脑游戏性能优化杂项]]></title>
+        <id>https://joke-csgo.github.io/post/dnsz/</id>
+        <link href="https://joke-csgo.github.io/post/dnsz/">
+        </link>
+        <updated>2020-03-09T07:03:16.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="一-电源计划">一、电源计划</h2>
+<p>首先win10系统版本需要1803以上，打开右击任务栏点击设置--&gt;系统--&gt;关于--&gt;Windows 规格，就可以看到版本号了。<img src="https://joke-csgo.github.io//post-images/1583737516274.png" alt="" loading="lazy"></p>
+<p>开启步骤如下：</p>
+<p>1、使用快捷键Windows+R打开运行界面，输入“powershell“，回车打开。</p>
+<p>2、然后输入命令powercfg -duplicatescheme e9a42b02-d5df-448d-aa00-03f14749eb61 按回车确定，一会就发现开启了卓越性能。<img src="https://joke-csgo.github.io//post-images/1583737529178.png" alt="" loading="lazy"></p>
+<p>3、接着依次控制面板--&gt;硬件和声音--&gt;电源选项，可以在隐藏附加计划下面勾选“卓越性能”，关闭设置。<img src="https://joke-csgo.github.io//post-images/1583737544496.png" alt="" loading="lazy"></p>
+<h2 id="二-鼠标设置">二、鼠标设置</h2>
+<p>1、打开控制面板，将查看方式改为大图标，找到鼠标。<img src="https://joke-csgo.github.io//post-images/1583737552740.png" alt="" loading="lazy"></p>
+<p>2、在鼠标属性，指针选项一栏中，将指针移动速度设定在6格，取消提高指针精确度。<img src="https://joke-csgo.github.io//post-images/1583737560720.png" alt="" loading="lazy"></p>
+<p>3、点击确定完成设置。</p>
+<h2 id="三-显卡设置">三、显卡设置</h2>
+<p>显卡设置需要下载相应显卡驱动。以N卡为例，A卡对比设置即可。</p>
+<p>1、桌面右击，选择NVIDIA 控制面板。</p>
+<p>2、在3D设置--通过预览调整图像设置，勾选“使用我的优先选择，侧重于：”，将滑块调至”性能“，点击”应用“保存。<img src="https://joke-csgo.github.io//post-images/1583737572076.png" alt="" loading="lazy"></p>
+<p>3、在管理3D设置中，可在全局设置中如图调试。也可通过程序设置，选择需要调试的游戏程序，这样仅对游戏调整，点击”应用“保存。<img src="https://joke-csgo.github.io//post-images/1583737578587.png" alt="" loading="lazy"></p>
+<p>4、在配置 Surround、PhysX中，在PhysX设置--处理器下拉菜单中选择自己的显卡，点击”应用“保存。<img src="https://joke-csgo.github.io//post-images/1583737587120.png" alt="" loading="lazy"></p>
+<h2 id="四-调整进程优先级">四、调整进程优先级</h2>
+<p>以CSGO为例</p>
+<p>1、打开CSGO，使用快捷键Ctrl+Alt+Delete，打开任务管理器。<br>
+<img src="https://joke-csgo.github.io//post-images/1583737782337.png" alt="" loading="lazy"><br>
+2、右击csgo.exe，选择转到详细信息，右击csgo.exe，设置优先级，选择“高”。<br>
+<img src="https://joke-csgo.github.io//post-images/1583737790085.png" alt="" loading="lazy"><br>
+3、完成设置。</p>
+<h2 id="以下是针对csgo的启动项设置">以下是针对CSGO的启动项设置</h2>
+<h4 id="steam设置启动项方法">Steam设置启动项方法：</h4>
+<p>1.打开steam并点击‘库’</p>
+<p>2.右键csgo选择属性<img src="https://joke-csgo.github.io//post-images/1583737724308.png" alt="" loading="lazy"></p>
+<p>3.常规---设置启动选项<img src="https://joke-csgo.github.io//post-images/1583737729508.jpg" alt="" loading="lazy"></p>
+<h4 id="常用启动项说明">常用启动项说明</h4>
+<table>
+<thead>
+<tr>
+<th>-novid 关闭过场动画</th>
+<th>-nojoy -d3d9ex 优化帧数</th>
+<th style="text-align:left">-noforcemparms  游戏时禁用win键</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>-perfectworld 国服</strong></td>
+<td><strong>-worldwide 国际服</strong></td>
+<td style="text-align:left"><strong>-high 优化帧数</strong></td>
+</tr>
+<tr>
+<td><strong>-windowed 窗口化</strong></td>
+<td><strong>-fullscreen 全屏</strong></td>
+<td style="text-align:left"><strong>-refresh 144 固定刷新率为144</strong></td>
+</tr>
+<tr>
+<td><strong>-w 1920 -h 1080 设置分辨率为1920x1080</strong></td>
+<td><strong>-tickrate 128 设置128tick</strong></td>
+<td style="text-align:left"><strong>-processheap 缓解游戏长时间运行卡顿</strong></td>
+</tr>
+</tbody>
+</table>
+<p>注：</p>
+<p>​		-tickrate 128 仅单机开服务器用的128tick。新安装的游戏进游戏后可能需要在控制台中输入cl_cmdrate 128 ; cl_updaterate 128 ;  rate 786432; 这三个参数才有用。</p>
+<p>​		-high 优化帧数就是提高进程优先级，与第四步设置意义相同。</p>
+<p>常用国服启动项建议：-perfectworld -novid -nojoy -d3d9ex -high -processheap</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[CSGO个人CFG预设]]></title>
         <id>https://joke-csgo.github.io/post/cfg/</id>
@@ -23,11 +90,9 @@
 提取码：w36z<br>
 （失效联系补链接，查看“关于”联系博主）</p>
 <h2 id="配置阶段">配置阶段</h2>
-<p>1、打开以下文件夹进行备份</p>
-<pre><code>  个人设置文件夹`...\Steam\userdata\(9位ID)\730\local\cfg\`   	
-
-  游戏设置文件夹`...\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\cfg\ `
-</code></pre>
+<p>1、打开以下文件夹进行备份<br>
+个人设置文件夹...\Steam\userdata(9位ID)\730\local\cfg<br>
+游戏设置文件夹...\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\cfg\</p>
 <p>2、9位ID可以通过打开加速器，在添加好友中，复制好友代码即为个人9位ID</p>
 <p>3、复制文件夹中的export.cfg文件，粘贴至游戏设置文件夹。</p>
 <p>4、打开游戏客户端切换至窗口化。</p>
@@ -42,10 +107,10 @@
 <p>打开游戏设置，键盘/鼠标控制，对应游戏设置数值，更改预设文件数值。<br>
 <img src="https://joke-csgo.github.io//post-images/1583662109042.jpg" alt="" loading="lazy"></p>
 <p>2.准星&amp;持枪设置</p>
-<p>打开crosshair.cfg，将配置阶段第6步获得的代码中，所有***cl_***开头的代码复制粘贴，保存即可。</p>
+<p>打开crosshair.cfg，将配置阶段第6步获得的代码中，所有“cl_”开头的代码复制粘贴，保存即可。</p>
 <p>对比配置阶段第6步获得的代码：viewmodel_recoil 0和viewmodel_presetpos 1修改持枪参数。</p>
 <p>3.自定义持枪视角参数自定义持枪视角参数</p>
-<p>将配置阶段第6步获得的代码所有***viewmodel_***开头的代码除viewmodel_recoil 0和viewmodel_presetpos 1外粘贴至相应位置。</p>
+<p>将配置阶段第6步获得的代码所有“viewmodel_”开头的代码除viewmodel_recoil 0和viewmodel_presetpos 1外粘贴至相应位置。</p>
 <p>4.基础设置</p>
 <p>对应中文提示以及个人习惯，所有参数“0”为关闭，“1”为打开。</p>
 <p>5.视频设置</p>
@@ -99,7 +164,7 @@
 </li>
 <li>
 <p><strong>knife.cfg</strong></p>
-<p>搭配跑图<code>practic.cfg</code>使用 实现分批次生成原版刀</p>
+<p>搭配跑图“practive.cfg”使用 实现分批次生成原版刀</p>
 </li>
 <li>
 <p><strong>solo.cfg</strong> 进行solo 2v2 3v3等场景时使用的config 一次设置各种参数 另有设置solo模式的快捷键</p>
@@ -115,10 +180,11 @@
 <ul>
 <li>网吧修复VAC屏蔽.bat</li>
 </ul>
-<p><code>狙击手Ricky</code> 所做的批处理脚本 用来处理VAC验证错误</p>
+<p>狙击手Ricky 所做的批处理脚本 用来处理VAC验证错误</p>
 <h2 id="常见问题">常见问题:</h2>
 <h4 id="1-为什么我自己的cfg无法自动加载">1. 为什么我自己的cfg无法自动加载？</h4>
-<p>－　需要在这个cfg的结尾加上host_writeconfig －　启动项 +exec xxx.cfg	是不是忘了+ 或者忘了用空格隔开？</p>
+<p>－　需要在这个cfg的结尾加上host_writeconfig<br>
+－　启动项 +exec xxx.cfg	是不是忘了+ 或者忘了用空格隔开？</p>
 <p>(xxx是自动加载cfg的名字)</p>
 <h4 id="2-为什么控制台经常弹出unknown-command">2. 为什么控制台经常弹出unknown command？</h4>
 <p>－记事本编辑文件后编码格式会变为UTF8 Bom csgo无法识别bom</p>
