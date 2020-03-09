@@ -1,13 +1,20 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" >
+
 <title>电脑游戏性能优化杂项 | Joke</title>
-<link rel="shortcut icon" href="http://joke-csgo.github.io/favicon.ico?v=1583747624418">
-<link href="https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css" rel="stylesheet">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="http://joke-csgo.github.io/favicon.ico?v=1583747747575">
 <link rel="stylesheet" href="http://joke-csgo.github.io/styles/main.css">
-<link rel="alternate" type="application/atom+xml" title="电脑游戏性能优化杂项 | Joke - Atom Feed" href="http://joke-csgo.github.io/atom.xml">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700">
+
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
 
 
@@ -16,92 +23,84 @@
 开启步骤如下：
 1、使用快捷键Windows+R打开运行界面，输入“powe..." />
     <meta name="keywords" content="系统优化,csgo" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
-    <script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
   </head>
   <body>
-    <div class="main">
-      <div class="main-content">
-        <div class="site-header">
-  <a href="http://joke-csgo.github.io">
-  <img class="avatar" src="http://joke-csgo.github.io/images/avatar.png?v=1583747624418" alt="">
-  </a>
-  <h1 class="site-title">
-    Joke
-  </h1>
-  <p class="site-description">
-    Joke-csgo's blog
-  </p>
-  <div class="menu-container">
-    
+    <div id="app" class="main">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="http://joke-csgo.github.io">
+        <img src="http://joke-csgo.github.io/images/avatar.png?v=1583747747575" class="site-logo">
+        <h1 class="site-title">Joke</h1>
+      </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
+    </div>
+    <div>
       
-        <a href="/" class="menu">
-          首页
-        </a>
+        
+          <a href="/" class="site-nav">
+            首页
+          </a>
+        
       
-    
+        
+          <a href="/archives" class="site-nav">
+            归档
+          </a>
+        
       
-        <a href="/archives" class="menu">
-          归档
-        </a>
+        
+          <a href="/tags" class="site-nav">
+            标签
+          </a>
+        
       
-    
+        
+          <a href="/post/about" class="site-nav">
+            关于
+          </a>
+        
       
-        <a href="/tags" class="menu">
-          标签
-        </a>
-      
-    
-      
-        <a href="/post/about" class="menu">
-          关于
-        </a>
-      
-    
+    </div>
   </div>
-  <div class="social-container">
-    
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
       
-    
+        
       
-    
+        
       
-    
+        
       
-    
+        
       
-    
+        
+      
+    </div>
+    <div class="site-description">
+      Joke-csgo's blog
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="http://joke-csgo.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
   </div>
 </div>
 
-        <div class="post-detail">
-          <article class="post">
-            <h2 class="post-title">
-              电脑游戏性能优化杂项
-            </h2>
-            <div class="post-info">
-              <span>
-                2020-03-09
-              </span>
-              <span>
-                3 min read
-              </span>
-              
-                <a href="http://joke-csgo.github.io/tag/d2n6E5TY3/" class="post-tag">
-                  # 系统优化
-                </a>
-              
-                <a href="http://joke-csgo.github.io/tag/1vPhUc8xW/" class="post-tag">
-                  # csgo
-                </a>
-              
-            </div>
+
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">电脑游戏性能优化杂项</h2>
+            <div class="post-date">2020-03-09</div>
             
-              <img class="post-feature-image" src="http://joke-csgo.github.io/post-images/dnsz.jpeg" alt="">
+              <div class="feature-container" style="background-image: url('http://joke-csgo.github.io/post-images/dnsz.jpeg')">
+              </div>
             
-            <div class="post-content-wrapper">
-              <div class="post-content">
-                <h2 id="一-电源计划">一、电源计划</h2>
+            <div class="post-content" v-pre>
+              <h2 id="一-电源计划">一、电源计划</h2>
 <p>首先win10系统版本需要1803以上，打开右击任务栏点击设置--&gt;系统--&gt;关于--&gt;Windows 规格，就可以看到版本号了。<img src="http://joke-csgo.github.io/post-images/1583737516274.png" alt="" loading="lazy"></p>
 <p>开启步骤如下：</p>
 <p>1、使用快捷键Windows+R打开运行界面，输入“powershell“，回车打开。</p>
@@ -161,93 +160,57 @@
 <p>​		-high 优化帧数就是提高进程优先级，与第四步设置意义相同。</p>
 <p>常用国服启动项建议：-perfectworld -novid -nojoy -d3d9ex -high -processheap</p>
 
-              </div>
-              <div class="toc-container">
-                <ul class="markdownIt-TOC">
-<li>
-<ul>
-<li><a href="#%E4%B8%80-%E7%94%B5%E6%BA%90%E8%AE%A1%E5%88%92">一、电源计划</a></li>
-<li><a href="#%E4%BA%8C-%E9%BC%A0%E6%A0%87%E8%AE%BE%E7%BD%AE">二、鼠标设置</a></li>
-<li><a href="#%E4%B8%89-%E6%98%BE%E5%8D%A1%E8%AE%BE%E7%BD%AE">三、显卡设置</a></li>
-<li><a href="#%E5%9B%9B-%E8%B0%83%E6%95%B4%E8%BF%9B%E7%A8%8B%E4%BC%98%E5%85%88%E7%BA%A7">四、调整进程优先级</a></li>
-<li><a href="#%E4%BB%A5%E4%B8%8B%E6%98%AF%E9%92%88%E5%AF%B9csgo%E7%9A%84%E5%90%AF%E5%8A%A8%E9%A1%B9%E8%AE%BE%E7%BD%AE">以下是针对CSGO的启动项设置</a><br>
-*
-<ul>
-<li><a href="#steam%E8%AE%BE%E7%BD%AE%E5%90%AF%E5%8A%A8%E9%A1%B9%E6%96%B9%E6%B3%95">Steam设置启动项方法：</a></li>
-<li><a href="#%E5%B8%B8%E7%94%A8%E5%90%AF%E5%8A%A8%E9%A1%B9%E8%AF%B4%E6%98%8E">常用启动项说明</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-
-              </div>
             </div>
-          </article>
-        </div>
+            
+              <div class="tag-container">
+                
+                  <a href="http://joke-csgo.github.io/tag/d2n6E5TY3/" class="tag">
+                    系统优化
+                  </a>
+                
+                  <a href="http://joke-csgo.github.io/tag/1vPhUc8xW/" class="tag">
+                    csgo
+                  </a>
+                
+              </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="http://joke-csgo.github.io/post/cfg/">
+                  <h3 class="post-title">
+                    CSGO个人CFG预设
+                  </h3>
+                </a>
+              </div>
+            
 
-        
-          <div class="next-post">
-            <div class="next">下一篇</div>
-            <a href="http://joke-csgo.github.io/post/cfg/">
-              <h3 class="post-title">
-                CSGO个人CFG预设
-              </h3>
-            </a>
+            
+
           </div>
-        
 
-        
-
-        <div class="site-footer">
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
-  <a class="rss" href="http://joke-csgo.github.io/atom.xml" target="_blank">
-    <i class="ri-rss-line"></i> RSS
-  </a>
-</div>
-
+        </div>
       </div>
     </div>
 
-    <script>
-      hljs.initHighlightingOnLoad()
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
 
-      let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+AOS.init();
 
-      // This should probably be throttled.
-      // Especially because it triggers during smooth scrolling.
-      // https://lodash.com/docs/4.17.10#throttle
-      // You could do like...
-      // window.addEventListener("scroll", () => {
-      //    _.throttle(doThatStuff, 100);
-      // });
-      // Only not doing it here to keep this Pen dependency-free.
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
 
-      window.addEventListener("scroll", event => {
-        let fromTop = window.scrollY;
+</script>
 
-        mainNavLinks.forEach((link, index) => {
-          let section = document.getElementById(decodeURI(link.hash).substring(1));
-          let nextSection = null
-          if (mainNavLinks[index + 1]) {
-            nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
-          }
-          if (section.offsetTop <= fromTop) {
-            if (nextSection) {
-              if (nextSection.offsetTop > fromTop) {
-                link.classList.add("current");
-              } else {
-                link.classList.remove("current");    
-              }
-            } else {
-              link.classList.add("current");
-            }
-          } else {
-            link.classList.remove("current");
-          }
-        });
-      });
 
-    </script>
+
+
+
+
   </body>
 </html>
