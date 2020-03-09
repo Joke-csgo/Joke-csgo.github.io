@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://joke-csgo.github.io</id>
     <title>Joke</title>
-    <updated>2020-03-09T09:55:51.461Z</updated>
+    <updated>2020-03-09T10:09:12.749Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://joke-csgo.github.io"/>
     <link rel="self" href="http://joke-csgo.github.io/atom.xml"/>
@@ -138,12 +138,6 @@
 <img src="http://joke-csgo.github.io/post-images/1583661980627.jpg" alt="" loading="lazy"></p>
 <p>3.在跑图或solo中，调用practive.cfg或solo.cfg，对于常见的代码在控制台中均可获得中文提示。<br>
 <img src="http://joke-csgo.github.io/post-images/1583662413952.jpg" alt="" loading="lazy"></p>
-<h2 id="后记">后记</h2>
-<p>1.资料来源参考B站UP主<a href="https://space.bilibili.com/73115492">Purp1e-csgo</a><br>
-（没事去给个三连吧。）<br>
-2.预设CFG的优缺点</p>
-<p>优点：所有设置清晰明了，个性化程度极高。同时省去更换电脑时调整各项设置的麻烦。</p>
-<p>缺点：所有设置的调整均需通过调整cfg文件参数来保留更改。</p>
 <h2 id="预设各文件作用简述">预设各文件作用简述：</h2>
 <p>通常游戏时使用</p>
 <ul>
@@ -189,6 +183,12 @@
 <h4 id="2-为什么控制台经常弹出unknown-command">2. 为什么控制台经常弹出unknown command？</h4>
 <p>－记事本编辑文件后编码格式会变为UTF8 Bom csgo无法识别bom</p>
 <p>－<strong>对功能没影响</strong> 可以用editplus 或notepad++改变编码为UTF8</p>
+<h2 id="后记">后记</h2>
+<p>1.资料来源参考B站UP主<a href="https://space.bilibili.com/73115492">Purp1e-csgo</a><br>
+（没事去给个三连吧。）<br>
+2.预设CFG的优缺点</p>
+<p>优点：所有设置清晰明了，个性化程度极高。同时省去更换电脑时调整各项设置的麻烦。</p>
+<p>缺点：所有设置的调整均需通过调整cfg文件参数来保留更改。</p>
 ]]></content>
     </entry>
     <entry>
