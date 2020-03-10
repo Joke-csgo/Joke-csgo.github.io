@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://joke-csgo.github.io</id>
     <title>Joke</title>
-    <updated>2020-03-09T10:17:07.272Z</updated>
+    <updated>2020-03-10T10:52:34.816Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://joke-csgo.github.io"/>
     <link rel="self" href="http://joke-csgo.github.io/atom.xml"/>
@@ -39,6 +39,9 @@
 2、右击csgo.exe，选择转到详细信息，右击csgo.exe，设置优先级，选择“高”。<br>
 <img src="http://joke-csgo.github.io/post-images/1583737790085.png" alt="" loading="lazy"><br>
 3、完成设置。</p>
+<p>五、禁用全屏优化</p>
+<p>1.打开游戏目录，右击csgo.exe,点击属性，查看“兼容性”，勾选禁用全屏优化，以管理员身份运行此程序。<img src="http://joke-csgo.github.io/post-images/1583837486008.png" alt="" loading="lazy"></p>
+<p>2.如果电脑拥有多个账户，点击更改所有用户的设置，同样勾选禁用全屏优化，以管理员身份运行此程序，方便不同用户登陆时，都能得到优化。<img src="http://joke-csgo.github.io/post-images/1583837490996.png" alt="" loading="lazy"></p>
 <h2 id="以下是针对csgo的启动项设置">以下是针对CSGO的启动项设置</h2>
 <h4 id="steam设置启动项方法">Steam设置启动项方法：</h4>
 <p>1.打开steam并点击‘库’</p>
